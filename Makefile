@@ -14,3 +14,6 @@ start:
 
 stop:
 	./vendor/bin/sail down
+
+clear:
+	./vendor/bin/sail down -v
