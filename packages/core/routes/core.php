@@ -6,7 +6,7 @@ use Remindle\Core\Core;
 use Remindle\Core\Mail\RemindUserEmail;
 
 Route::group(['middleware' => config('core.middleware', ['web'])], function () {
-    Route::any('{catchall}', function () {
+    Route::fallback(function () {
       return redirect('login');
     });
 
