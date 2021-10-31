@@ -6,6 +6,10 @@ use Remindle\Core\Core;
 use Remindle\Core\Mail\RemindUserEmail;
 
 Route::group(['middleware' => config('core.middleware', ['web'])], function () {
+    Route::any('{catchall}', function () {
+      return redirect('login');
+    });
+
     if (Core::hasRemindFeatures()) {
       Route::get('/remind/{name}', function($name) {
         $reminder = new Core();
@@ -18,6 +22,6 @@ Route::group(['middleware' => config('core.middleware', ['web'])], function () {
     if (App::environment('local')) {
       Route::get('/remind/{name}/mail', function ($name) {
         return new RemindUserEmail($name);
-    });
+      });
     }
 });
