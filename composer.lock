@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e363751175c15a1e0a4ea5c3482b761a",
+    "content-hash": "589084cfc8145376cf9d05a1f9762f50",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5787,6 +5787,71 @@
             "time": "2021-09-25T23:10:38+00:00"
         },
         {
+            "name": "remindle/core",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/core",
+                "reference": "a132ae2042781abf90c2576edc7c07e044ff4b94"
+            },
+            "require": {
+                "illuminate/support": "^8.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Remindle\\Core\\CoreServiceProvider"
+                    ],
+                    "aliases": {
+                        "Core": "Remindle\\Core\\CoreFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Remindle\\Core\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Remindle\\Core\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-coverage": [
+                    "vendor/bin/phpunit --coverage-html coverage"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leo van Haaren",
+                    "email": "leo@remindle.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Remindle core services",
+            "homepage": "https://github.com/remindle/core",
+            "keywords": [
+                "core",
+                "remindle"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "sebastian/cli-parser",
             "version": "1.0.1",
             "source": {
@@ -10136,7 +10201,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "remindle/core": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -22,7 +22,8 @@
         "meilisearch/meilisearch-php": "^0.19.2",
         "pestphp/pest": "^1.16",
         "pestphp/pest-plugin-laravel": "^1.1",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "remindle/core": "dev-main"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -47,13 +48,20 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/core"
+        }
+    ],
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [
-            "@php artisan vendor:publish --tag=laravel-assets --ansi"
+            "@php artisan vendor:publish --tag=laravel-assets --ansi",
+            "@php artisan vendor:publish --tag=remindle-configs --ansi"
         ]
     },
     "extra": {
