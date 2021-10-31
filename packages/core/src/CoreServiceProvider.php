@@ -21,7 +21,7 @@ class CoreServiceProvider extends ServiceProvider
          * Optional methods to load your package assets
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'core');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'core');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'core');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->loadRoutesFrom(__DIR__.'/../routes/core.php');
     }
@@ -37,6 +37,10 @@ class CoreServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/../config/core.php' => config_path('core.php'),
             ], ['core-config', 'remindle-configs']);
+
+            $this->publishes([
+                __DIR__.'/../resources/views' => resource_path('views/vendor/core'),
+            ], ['remindle-views', 'remindle-assets']);
         }
     }
 

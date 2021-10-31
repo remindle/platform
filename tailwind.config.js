@@ -11,8 +11,50 @@ module.exports = {
 
     theme: {
         extend: {
+            colors: {
+                current: 'currentColor',
+                transparent: 'transparent',
+
+                black: '#000',
+                white: '#fff',
+
+                primary: {
+                  light: '#F49757',
+                  DEFAULT: '#F49739',
+                  dark: '#D6791B',
+                },
+
+                secondary: {
+                  light: '#FFED49',
+                  DEFAULT: '#FFCF2B',
+                  dark: '#FFCF0D',
+                },
+
+                tetriary: {
+                  light: '#221E6B',
+                  DEFAULT: '#04004D',
+                  dark: '#00002F',
+                },
+
+                dark: {
+                  DEFAULT: '#323232',
+                },
+
+                grey: {
+                  DEFAULT: '#C4C4C4',
+                },
+
+                light: {
+                  DEFAULT: '#F5F5F5',
+                },
+                ...defaultTheme.colors
+            },
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                body: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+                heading: '"Sen", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+                sans: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+                serif: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+                mono: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
             },
         },
     },
