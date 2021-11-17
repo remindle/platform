@@ -2,7 +2,9 @@
 
 namespace Remindle\Core;
 
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
+use Remindle\Core\Jobs\SendDailyRemindleEmail;
 
 class CoreServiceProvider extends ServiceProvider
 {
@@ -24,6 +26,8 @@ class CoreServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'core');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->loadRoutesFrom(__DIR__.'/../routes/core.php');
+
+        $this->registerCommands();
     }
 
     /**
@@ -42,6 +46,22 @@ class CoreServiceProvider extends ServiceProvider
                 __DIR__.'/../resources/views' => resource_path('views/vendor/core'),
             ], ['remindle-views', 'remindle-assets']);
         }
+    }
+
+    /**
+     * Register the package's command resources.
+     *
+     * @return void
+     */
+    private function registerCommands()
+    {
+        $this->commands([
+            Console\Commands\SendDailyRemindle::class,
+        ]);
+
+        $this->app->afterResolving(Schedule::class, function (Schedule $schedule) {
+            $schedule->job(SendDailyRemindleEmail::class)->dailyAt('9:00');
+        });
     }
 
     /**
