@@ -14,7 +14,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" data-crossorigin />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400|Sen:400,700|DM+Sans:300,500,700&amp;subset=latin"/>
 
-        <!-- icon -->
+        <!-- Icon -->
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
