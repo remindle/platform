@@ -1,0 +1,1 @@
+@extends('template/app', ['name' => 'auth'])

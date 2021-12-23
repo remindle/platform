@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/volume-mute</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="volume-mute" fill-rule="nonzero" fill="#000000">
+            <path d="M9.54006508,8 L13.4814868,3.40167466 C13.8614512,2.95838287 14.4161502,2.70325741 15,2.70325741 C16.1045695,2.70325741 17,3.59868791 17,4.70325741 L17,19.2967426 C17,19.8805924 16.7448745,20.4352914 16.3015827,20.8152558 C15.4629311,21.5341001 14.2003311,21.436977 13.4814868,20.5983253 L9.54006508,16 L9,16 C6.790861,16 5,14.209139 5,12 C5,9.790861 6.790861,8 9,8 L9.54006508,8 Z M10,10 L9,10 C7.8954305,10 7,10.8954305 7,12 C7,13.1045695 7.8954305,14 9,14 L10,14 C10.2919249,14 10.5692744,14.1275627 10.7592566,14.3492086 L15,19.2967426 L15,4.70325741 L10.7592566,9.65079137 C10.5692744,9.87243727 10.2919249,10 10,10 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

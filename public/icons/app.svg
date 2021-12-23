@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/app</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app" fill-rule="nonzero" fill="#000000">
+            <path d="M19,12 C19,11.4477153 19.4477153,11 20,11 C20.5522847,11 21,11.4477153 21,12 L21,18 C21,20.209139 19.209139,22 17,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,7 C2,4.790861 3.790861,3 6,3 L12,3 C12.5522847,3 13,3.44771525 13,4 C13,4.55228475 12.5522847,5 12,5 L6,5 C4.8954305,5 4,5.8954305 4,7 L4,18 C4,19.1045695 4.8954305,20 6,20 L17,20 C18.1045695,20 19,19.1045695 19,18 L19,12 Z M19,9 C16.790861,9 15,7.209139 15,5 C15,2.790861 16.790861,1 19,1 C21.209139,1 23,2.790861 23,5 C23,7.209139 21.209139,9 19,9 Z M19,7 C20.1045695,7 21,6.1045695 21,5 C21,3.8954305 20.1045695,3 19,3 C17.8954305,3 17,3.8954305 17,5 C17,6.1045695 17.8954305,7 19,7 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

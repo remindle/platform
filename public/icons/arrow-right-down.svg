@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/arrow-right-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-right-down" fill-rule="nonzero" fill="#000000">
+            <path d="M17,15.5857864 L7.05025253,5.63603897 C6.65972824,5.24551468 6.02656326,5.24551468 5.63603897,5.63603897 C5.24551468,6.02656326 5.24551468,6.65972824 5.63603897,7.05025253 L15.5857864,17 L10,17 C9.44771525,17 9,17.4477153 9,18 C9,18.5522847 9.44771525,19 10,19 L17,19 C18.1045695,19 19,18.1045695 19,17 L19,10 C19,9.44771525 18.5522847,9 18,9 C17.4477153,9 17,9.44771525 17,10 L17,15.5857864 L17,15.5857864 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

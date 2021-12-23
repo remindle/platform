@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/arrow-left-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-left-down" fill-rule="nonzero" fill="#000000">
+            <path d="M7,15.5826408 L16.9497475,5.63289337 C17.3402718,5.24236908 17.9734367,5.24236908 18.363961,5.63289337 C18.7544853,6.02341766 18.7544853,6.65658264 18.363961,7.04710693 L8.41421356,16.9968544 L14,16.9968544 C14.5522847,16.9968544 15,17.4445697 15,17.9968544 C15,18.5491392 14.5522847,18.9968544 14,18.9968544 L7,18.9968544 C5.8954305,18.9968544 5,18.1014239 5,16.9968544 L5,9.9968544 C5,9.44456965 5.44771525,8.9968544 6,8.9968544 C6.55228475,8.9968544 7,9.44456965 7,9.9968544 L7,15.5826408 L7,15.5826408 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>
