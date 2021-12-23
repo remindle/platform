@@ -1,0 +1,27 @@
+.r-input:focus {
+  --angle: 0deg;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: unset;
+
+  animation: 10s rotate linear infinite;
+
+  background: linear-gradient(var(--angle), var(--color-primary-light), var(--color-secondary-light)) border-box; /*3*/
+  -webkit-mask: /*4*/
+     linear-gradient(#fff 0 0) padding-box,
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; /*5'*/
+  mask-composite: exclude; /*5*/
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}

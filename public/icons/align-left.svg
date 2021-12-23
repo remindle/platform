@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/align-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="align-left" fill-rule="nonzero" fill="#000000">
+            <path d="M4,22 C4,22.5522847 3.55228475,23 3,23 C2.44771525,23 2,22.5522847 2,22 L2,2 C2,1.44771525 2.44771525,1 3,1 C3.55228475,1 4,1.44771525 4,2 L4,22 Z M8,4 L20,4 C21.1045695,4 22,4.8954305 22,6 L22,9 C22,10.1045695 21.1045695,11 20,11 L8,11 C6.8954305,11 6,10.1045695 6,9 L6,6 C6,4.8954305 6.8954305,4 8,4 Z M8,13 L15,13 C16.1045695,13 17,13.8954305 17,15 L17,18 C17,19.1045695 16.1045695,20 15,20 L8,20 C6.8954305,20 6,19.1045695 6,18 L6,15 C6,13.8954305 6.8954305,13 8,13 Z M8,6 L8,9 L20,9 L20,6 L8,6 Z M8,15 L8,18 L15,18 L15,15 L8,15 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

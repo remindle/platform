@@ -102,6 +102,7 @@ build-storybook.log
 build
 
 # Laravel
+/public/build
 /public/hot
 /public/storage
 /storage/*.key

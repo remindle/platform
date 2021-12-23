@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone" fill-rule="nonzero" fill="#000000">
+            <path d="M18,15 L18,5 C18,3.8954305 17.1045695,3 16,3 L8,3 C6.8954305,3 6,3.8954305 6,5 L6,15 L18,15 Z M18,17 L6,17 L6,19 C6,20.1045695 6.8954305,21 8,21 L16,21 C17.1045695,21 18,20.1045695 18,19 L18,17 Z M8,1 L16,1 C18.209139,1 20,2.790861 20,5 L20,19 C20,21.209139 18.209139,23 16,23 L8,23 C5.790861,23 4,21.209139 4,19 L4,5 C4,2.790861 5.790861,1 8,1 Z M12,20.5 C11.1715729,20.5 10.5,19.8284271 10.5,19 C10.5,18.1715729 11.1715729,17.5 12,17.5 C12.8284271,17.5 13.5,18.1715729 13.5,19 C13.5,19.8284271 12.8284271,20.5 12,20.5 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

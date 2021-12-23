@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bookmark" fill-rule="nonzero" fill="#000000">
+            <path d="M8,3 C6.8954305,3 6,3.8954305 6,5 L6,20.8257794 L10.6984173,16.7985646 C11.4473967,16.1565822 12.5526033,16.1565822 13.3015827,16.7985646 L18,20.8257794 L18,5 C18,3.8954305 17.1045695,3 16,3 L8,3 Z M8,1 L16,1 C18.209139,1 20,2.790861 20,5 L20,20.8257794 C20,21.9303489 19.1045695,22.8257794 18,22.8257794 C17.5225775,22.8257794 17.0609035,22.654995 16.6984173,22.3442926 L12,18.3170778 L7.30158275,22.3442926 C6.46293106,23.0631369 5.2003311,22.9660138 4.4814868,22.1273621 C4.17078432,21.7648759 4,21.3032019 4,20.8257794 L4,5 C4,2.790861 5.790861,1 8,1 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

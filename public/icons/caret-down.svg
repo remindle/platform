@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/caret-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="caret-down" fill-rule="nonzero" fill="#000000">
+            <path d="M6.29289322,10.4142136 L10.5857864,14.7071068 C11.366835,15.4881554 12.633165,15.4881554 13.4142136,14.7071068 L17.7071068,10.4142136 C18.0976311,10.0236893 18.0976311,9.39052429 17.7071068,9 C17.3165825,8.60947571 16.6834175,8.60947571 16.2928932,9 L12,13.2928932 L7.70710678,9 C7.31658249,8.60947571 6.68341751,8.60947571 6.29289322,9 C5.90236893,9.39052429 5.90236893,10.0236893 6.29289322,10.4142136 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/paper-box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="paper-box" fill-rule="nonzero" fill="#000000">
+            <path d="M2,8.73243561 C1.40219863,8.38662619 1,7.74028236 1,7 L1,5.5 C1,3.56700338 2.56700338,2 4.5,2 L19.5,2 C21.4329966,2 23,3.56700338 23,5.5 L23,7 C23,7.74028236 22.5978014,8.38662619 22,8.73243561 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,8.73243561 Z M20,18 L20,9 L4,9 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 Z M4.5,4 C3.67157288,4 3,4.67157288 3,5.5 L3,7 L21,7 L21,5.5 C21,4.67157288 20.3284271,4 19.5,4 L4.5,4 Z M9,13 C8.44771525,13 8,12.5522847 8,12 C8,11.4477153 8.44771525,11 9,11 L15,11 C15.5522847,11 16,11.4477153 16,12 C16,12.5522847 15.5522847,13 15,13 L9,13 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

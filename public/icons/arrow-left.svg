@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Bold/SVG/arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bold-Outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-left" fill-rule="nonzero" fill="#000000">
+            <path d="M6.41421356,11 L20,11 C20.5522847,11 21,11.4477153 21,12 C21,12.5522847 20.5522847,13 20,13 L6.41421356,13 L9.65685425,16.2426407 C10.0473785,16.633165 10.0473785,17.26633 9.65685425,17.6568542 C9.26632996,18.0473785 8.63316498,18.0473785 8.24264069,17.6568542 L4,13.4142136 C3.21895142,12.633165 3.21895142,11.366835 4,10.5857864 L8.24264069,6.34314575 C8.63316498,5.95262146 9.26632996,5.95262146 9.65685425,6.34314575 C10.0473785,6.73367004 10.0473785,7.36683502 9.65685425,7.75735931 L6.41421356,11 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

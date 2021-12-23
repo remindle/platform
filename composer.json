@@ -20,10 +20,11 @@
         "league/flysystem-aws-s3-v3": "^1.0",
         "livewire/livewire": "^2.5",
         "meilisearch/meilisearch-php": "^0.19.2",
+        "nuwave/lighthouse": "^5.31",
         "pestphp/pest": "^1.16",
         "pestphp/pest-plugin-laravel": "^1.1",
         "predis/predis": "^1.1",
-        "remindle/core": "dev-main"
+        "remindle/core": "dev-next"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
