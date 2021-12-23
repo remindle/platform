@@ -12,8 +12,10 @@ export default ({ command }) => ({
         manifest: true,
         outDir: 'public/build',
         rollupOptions: {
-            home: 'resources/js/home/main.tsx',
-						auth: 'resources/js/auth/main.tsx',
+            input: {
+                home: 'resources/js/home/main.tsx',
+                auth: 'resources/js/auth/main.tsx',
+            }
         },
         sourcemap: true
     },
